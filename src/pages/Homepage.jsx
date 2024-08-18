@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import Navbar from "../components/Navbar"; // Adjust the path if necessary
+import Navbar from "../components/Navbar";
+// import Welcome from "../components/WelcomeHeading"; // Adjust the path if necessary
 
 const Homepage = () => {
   const [blurred, setBlurred] = useState(true);
@@ -8,35 +9,43 @@ const Homepage = () => {
     <div
       className="relative min-h-screen bg-cover bg-center"
       style={{
-        backgroundImage: `url('https://res.cloudinary.com/ryry/image/upload/v1723986099/ryan_goccqw.webp')`,
+        backgroundImage: `url('https://res.cloudinary.com/ryry/image/upload/v1723998454/ryan-sitting-with-laptop_fgwoxb.webp')`,
         backgroundColor: "#D1D0CE",
-        backgroundPosition: "center",
-        backgroundBlendMode: "overlay"
+        backgroundPosition: "center"
       }}
     >
+      {/* Overlay Image */}
+      <div
+        className="absolute inset-0"
+        style={{
+          backgroundImage: `url('https://res.cloudinary.com/ryry/image/upload/v1723998454/ryan-sitting-with-laptop-overlay_ouyp5x.webp')`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          zIndex: 1,
+          pointerEvents: "none"
+        }}
+      />
+
       {/* Main Content (Navbar + other content) */}
       <div className="relative z-0 flex flex-col min-h-screen">
         <Navbar /> {/* Navbar should be under the blur */}
         {/* Main Section - Centered Under Navbar */}
         {!blurred && (
-          <div className="flex-grow flex flex-col items-end justify-center p-14">
-            <h1 className="text-white font-bold text-5xl mb-8">
-              Welcome to My Portfolio
-            </h1>
+          <div className="flex-grow flex flex-col items-start justify-center p-32 max-w-full">
+            <h1 className="text-white font-bold text-9xl mb-8">Ryan Fleming</h1>
 
             {/* Additional Content Section */}
-            <div className="text-white text-lg max-w-3xl text-right">
+            <div className="text-white text-xl max-w-md text-left">
               <p>
-                Here is some additional content you can add to your homepage.
-                You can put in more details about your portfolio, your projects,
-                or anything else you'd like to showcase.
+                Welcome, feel free to have a look around. If you want to
+                connect, please request via linkedin!
               </p>
             </div>
           </div>
         )}
         {/* Social Icons */}
         {!blurred && (
-          <div className="flex justify-center space-x-6 mt-8 mb-8">
+          <div className="flex justify-end space-x-6 mt-8 mb-8 p-12">
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -72,7 +81,7 @@ const Homepage = () => {
         >
           <button
             onClick={() => setBlurred(false)}
-            className="text-white font-bold text-3xl z-20"
+            className="text-white font-bold text-7xl z-20"
           >
             Enter
           </button>
