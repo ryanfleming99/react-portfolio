@@ -14,10 +14,14 @@ h6 {
   text-rendering: optimizeLegibility;
 }
 
+a:hover {
+  color: black !important;
+}
+
 p,
 div,
 span {
-  font-family: "arial", sans-serif; /* Example font, adjust to your chosen font */
+  font-family: "Inter", sans-serif; /* Example font, adjust to your chosen font */
   color: #fff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

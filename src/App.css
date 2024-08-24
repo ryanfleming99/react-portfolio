@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 h1,
@@ -12,7 +12,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 .App-logo {
   height: 40vmin;
@@ -63,4 +64,3 @@ h6 {
 .animate-pulse {
   animation: pulse 1.5s infinite;
 }
-

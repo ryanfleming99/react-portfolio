@@ -31,14 +31,21 @@ const Homepage = () => {
         <Navbar /> {/* Navbar should be under the blur */}
         {/* Main Section - Centered Under Navbar */}
         {!blurred && (
-          <div className="flex-grow flex flex-col items-start justify-center p-32 max-w-full">
-            <h1 className="text-white font-bold text-9xl mb-8">Ryan Fleming</h1>
+          <div className="flex-grow flex flex-col items-start justify-center p-12 max-w-full">
+            <h1 className="text-white font-bold text-9xl mb-4">Ryan Fleming</h1>
 
             {/* Additional Content Section */}
             <div className="text-white text-xl max-w-md text-left">
               <p>
-                Welcome, feel free to have a look around. If you want to
-                connect, please request via linkedin!
+                I specialize in data, marketing tools, AI, game development, 3D
+                modeling, and all things web.
+              </p>
+              <p className="text-xs mt-4">
+                Hire me, you can find my CV on the{" "}
+                <a className="hover:text-blue-300" href="/contact">
+                  contact
+                </a>{" "}
+                page.
               </p>
             </div>
           </div>

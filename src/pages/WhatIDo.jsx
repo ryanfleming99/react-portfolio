@@ -7,214 +7,248 @@ const experiences = [
     company: "Marketopia",
     duration: "Jan 2022 - Present",
     description: [
-      "Creating beautiful websites using Hubspot CMS, Wordpress, Webflow & Wix",
-      "Optimising websites using SEO tools such as SEMrush, Google Search Console & pagespeed.web.dev",
-      "Partnering with project managers, design teams and clients to regularly deliver 40 page websites",
-      "Daily quality assurance, planning and strategy",
-      "Up-skilling colleagues monthly using my expertise (email/web development, adobe software, QA testing)"
+      "Designed and developed visually engaging websites using Hubspot CMS, WordPress, Webflow, and Wix.",
+      "Enhanced website performance and visibility through SEO optimization, utilizing tools like SEMrush, Google Search Console, and PageSpeed Insights.",
+      "Collaborated with project managers, design teams, and clients to consistently deliver comprehensive websites.",
+      "Conducted daily quality assurance, strategic planning, and project management to ensure optimal outcomes.",
+      "Facilitated monthly training sessions to upskill colleagues in web development, email design, Adobe software, and QA testing."
     ],
-    logo: "/images/marketopia-logo.webp"
+    logo:
+      "https://res.cloudinary.com/ryry/image/upload/v1724496110/marketopia-logo_qoo5iu.webp"
   },
   {
     role: "Front End Developer",
     company: "InvestCloud",
     duration: "Feb 2020 - Jan 2022 · 2 yrs",
     description: [
-      "Building financial web portals for wealth management clients using proprietary software and Azure DevOps Server for project management",
-      "Replicating InVision website designs with HTML & CSS",
-      "Daily bug fixing for client websites, functional wiring and daily feedback on products"
+      "Developed financial web portals for wealth management clients using proprietary software and Azure DevOps Server.",
+      "Translated InVision designs into functional, responsive HTML and CSS layouts.",
+      "Managed daily bug fixes, functional wiring, and provided consistent feedback on client websites."
     ],
-    logo: "/images/investcloud-logo.webp"
+    logo:
+      "https://res.cloudinary.com/ryry/image/upload/v1724496110/investcloud-logo_ggyamx.webp"
   },
   {
     role: "Marketing Technologist",
     company: "Notonthehighstreet",
     duration: "Aug 2017 - Jul 2019 · 2 yrs",
     description: [
-      "Email Developer role coding/programming with HTML, CSS, Javascript and Node.js",
-      "Using Github online and via mac terminal, updating and developing a node.js application",
-      "Meeting strict deadline dates for multiple email campaigns daily",
-      "Working with multiple teams simultaneously for briefs, creatives, copy, finance and ideas",
-      "Volunteering - Taking on extra responsibility for other departments e.g email, cms updates and deletions, Wordpress web work",
-      "Working with Google Analytics, E-commerce tools & data as well as personalisation, email service providers and dynamic content for digital marketing",
-      "The weekly personal development time used for technology/marketing interests such as JavaScript, React.js, Email Design and Adobe Suite"
+      "Coded and programmed emails using HTML, CSS, JavaScript, and Node.js.",
+      "Updated and developed Node.js applications via GitHub, both online and through the Mac terminal.",
+      "Met strict deadlines for multiple daily email campaigns.",
+      "Collaborated with various teams on briefs, creatives, copy, finance, and ideas.",
+      "Volunteered for extra responsibilities, including CMS updates, deletions, and WordPress web work.",
+      "Utilized Google Analytics, e-commerce tools, and personalized content for digital marketing.",
+      "Dedicated weekly personal development time to enhance skills in JavaScript, React.js, email design, and Adobe Suite."
     ],
-    logo: "/images/notonthehighstreet.webp"
+    logo:
+      "https://res.cloudinary.com/ryry/image/upload/v1724496112/notonthehighstreet_l4h2qz.webp"
   },
   {
     role: "Co Founder",
     company: "Tutor Bubble",
     duration: "Jun 2016 - Aug 2017 · 1 yr 3 mos",
     description: [
-      "Online tutoring agency aimed at easing the process for tutoring the young with professionally qualified government teachers",
-      "Leading the brand design from logo, website PR content and social posts",
-      "Following best business practices for ensuring legal requirements were met during business operations",
-      "Meeting daily deadlines for social, PR and email campaigns to maximise traffic in all channels"
+      "Established an online tutoring agency connecting students with professionally qualified teachers.",
+      "Led brand design, including logo creation, website content, and social media posts.",
+      "Ensured compliance with legal requirements through best business practices.",
+      "Managed daily deadlines for social, PR, and email campaigns to maximize channel traffic."
     ],
-    logo: "/images/tutor-bubble-logo.webp"
+    logo:
+      "https://res.cloudinary.com/ryry/image/upload/v1724496299/tutor-bubble-logo_vclv24.webp"
   },
   {
     role: "Campaign Manager",
     company: "Yielify",
     duration: "Apr 2017 - Jul 2017 · 4 mos",
     description: [
-      "Email and web development for multiple brands focused on increasing revenue, TTV and typical email KPI’s such as opens, clicks and conversions.",
-      "Developing campaigns for big brands while advising on e-commerce pop-ups to maximise ROI",
-      "Collaborating with account managers from both brand, product and design to ensure consistency through-out multiple campaigns on-site and in email"
+      "Developed email and web campaigns for multiple brands, focusing on increasing revenue, TTV, and key email metrics.",
+      "Created and managed campaigns for major brands while advising on e-commerce pop-ups to maximize ROI.",
+      "Collaborated with account managers to ensure consistency across multiple campaigns on-site and in email."
     ],
-    logo: "/images/yielify-logo.webp"
+    logo:
+      "https://res.cloudinary.com/ryry/image/upload/v1724496392/yielify-logo_ea6osp.webp"
   },
   {
     role: "Travelling",
     company: "",
     duration: "Aug 2015 - June 2017",
     description: [
-      "Amsterdam, Australia, Bali, Cambodia, Germany, Indonesia, Singapore, Thailand, Vietnam",
-      "Avocado Picker/Pruner for Australian Regional Visa"
+      "Traveled through Amsterdam, Australia, Bali, Cambodia, Germany, Indonesia, Singapore, Thailand, and Vietnam.",
+      "Worked as an avocado picker/pruner for an Australian Regional Visa."
     ],
-    logo: "/images/travelling-logo.webp"
+    logo:
+      "https://res.cloudinary.com/ryry/image/upload/v1724496428/travelling-logo_chrmi7.webp"
   },
   {
     role: "Customer Service Officer",
     company: "Merlin Entertainment",
     duration: "Dec 2015 - Mar 2016 · 4 mos",
     description: [
-      "Exceeding sales targets and developing ideas for customer entertainment",
-      "Handling and organising cash, tickets and promotions",
-      "Extra hours and support during peak periods such as Christmas and school holidays",
-      "Efficient and fast teamwork as the daily role was high-paced and exciting"
+      "Exceeded sales targets while developing creative ideas for customer entertainment.",
+      "Managed and organized cash, tickets, and promotions.",
+      "Provided extra support during peak periods such as Christmas and school holidays.",
+      "Worked efficiently in a fast-paced environment with a strong team focus."
     ],
-    logo: "/images/merlin-entertainment-logo.webp"
+    logo:
+      "https://res.cloudinary.com/ryry/image/upload/v1724496469/merlin-logo_cv9wqp.webp"
   },
   {
     role: "Kitchen Chef/Barista",
     company: "Starbucks",
     duration: "Sep 2014 - Jul 2015 · 11 mos",
     description: [
-      "Working to Starbucks high standards as required",
-      "Handling customer transactions while creating a positive atmosphere",
-      "Preparing food and being knowledgeable with hygiene to ensure health and safety is the highest priority",
-      "Working in events serving alcohol, food and providing high standard customer service"
+      "Maintained Starbucks' high standards in food preparation and customer service.",
+      "Handled customer transactions while fostering a positive atmosphere.",
+      "Ensured compliance with health and safety regulations through meticulous hygiene practices.",
+      "Provided exceptional service at events, including alcohol service and food preparation."
     ],
-    logo: "/images/starbucks-logo.webp"
+    logo:
+      "https://res.cloudinary.com/ryry/image/upload/v1724496112/starbucks-logo_hqq119.webp"
   },
   {
     role: "Host",
     company: "Byron",
     duration: "Nov 2013 - Jul 2014 · 9 mos",
     description: [
-      "Welcoming and entertaining guests in the biggest ticket-selling arena in the world",
-      "Serving 100+ international customers daily",
-      "Fixing issues with orders, unhappy customers and maintaining a positive atmosphere",
-      "Chemical, food and health and safety certification"
+      "Welcomed and entertained guests in the world's largest ticket-selling arena.",
+      "Served 100+ international customers daily.",
+      "Resolved issues with orders and customer concerns while maintaining a positive environment.",
+      "Earned certification in chemical, food, and health safety."
     ],
-    logo: "/images/byron-logo.webp"
+    logo:
+      "https://res.cloudinary.com/ryry/image/upload/v1724496106/byron-logo_lmvpjo.webp"
   },
   {
     role: "Social Media Specialist",
     company: "Violet Darkling",
     duration: "",
     description: [
-      "Maintaining and developing social and brand status through all social channels to create brand awareness, increase revenue, interest and customer acquisition",
-      "Working with the design team, developing and improving content for both website & social",
-      "Reporting back to stakeholders about brand progress"
+      "Maintained and enhanced brand presence across all social channels to boost awareness, revenue, and customer acquisition.",
+      "Collaborated with the design team to improve content for both the website and social media.",
+      "Reported brand progress to stakeholders regularly."
     ],
-    logo: "/images/violetdarkling.webp"
+    logo:
+      "https://res.cloudinary.com/ryry/image/upload/v1724496525/violetdarkling_fgwibm.webp"
   },
   {
     role: "Bachelor's Degree, Digital Multimedia Technology",
     company: "University",
     duration: "July 2012 - July 2015",
     description: [
-      "Theoretical understanding and practical experience of designing, constructing, and developing digital media applications",
-      "Visual design, animation, creative and logical thinking, and interface design.",
-      "Webpage design and creation with HTML, CSS and Javascript",
-      "Technical product planning and implementation using single-board computers"
+      "Gained theoretical knowledge and practical skills in designing, constructing, and developing digital media applications.",
+      "Studied visual design, animation, creative thinking, and interface design.",
+      "Learned webpage design and development using HTML, CSS, and JavaScript.",
+      "Engaged in technical product planning and implementation using single-board computers."
     ],
-    logo: "/images/university-logo.webp"
+    logo:
+      "https://res.cloudinary.com/ryry/image/upload/v1724496605/greenwich_kq1k9a.png"
   },
   {
     role: "Computer Aided Drafting and Design",
     company: "Adam Smith College",
     duration: "2010 - 2011",
     description: [
-      "Creating designs and schematics in a software environment used to manufacture products",
-      "3D surface and solid modelling",
-      "Architectural CADT Principles and Practice",
-      "Design methodology"
+      "Created designs and schematics in software for product manufacturing.",
+      "Worked on 3D surface and solid modeling projects.",
+      "Studied architectural CAD principles and practices.",
+      "Learned and applied design methodology."
     ],
-    logo: "/images/adamsmithcollege.png"
+    logo:
+      "https://res.cloudinary.com/ryry/image/upload/v1724496678/education-emblem-with-book-and-graduation-cap_zqgikc.jpg"
   },
   {
     role: "Social Media",
     company: "",
     duration: "2008 - 2011",
     description: [
-      "Gain and maintain social media following of 500,000+",
-      "Edit, create and update social posts using Adobe Photoshop",
-      "Sourcing brands/products for affiliate marketing"
+      "Built and maintained a social media following of over 500,000.",
+      "Edited, created, and updated social posts using Adobe Photoshop.",
+      "Sourced brands and products for affiliate marketing."
     ],
-    logo: "/images/social-media-logo.webp"
+    logo:
+      "https://res.cloudinary.com/ryry/image/upload/t_a/v1724496753/Black-Icons-widget-template-to-embed_mszf7b.webp"
   },
   {
     role: "Portable Salesman",
     company: "",
     duration: "2007 - 2008",
     description: [
-      "Sales role focused on customer retention and providing unattainable goods",
-      "Stock Management and quality control",
-      "Sourcing and delivery of goods"
+      "Focused on customer retention and providing unique products.",
+      "Managed stock and ensured quality control.",
+      "Sourced and delivered goods efficiently."
     ],
-    logo: "/images/salesicon.png"
+    logo:
+      "https://res.cloudinary.com/ryry/image/upload/v1724496824/RyanFlemingAvatar_d5hwo0.webp"
   }
 ];
 
 const WhatIDo = () => {
   return (
-    <div>
-      {/* Navbar */}
+    <div className="bg-blue">
       <Navbar />
 
-      {/* Main Content */}
-      <div className="container mx-auto px-4 py-12">
-        <section className="mb-12">
-          <div className="w-full md:w-1/2">
-            <h1 className="text-4xl font-bold mb-4">
-              Where and who have I worked with?
-            </h1>
-            <p className="text-lg text-gray-700">
-              Below is all of my experience, from age 13 to 28. You will find I
-              have a varied range of experience which includes Frontend
-              Development, Marketing, Sales, SEO, CRM, Email and many more.
-            </p>
-          </div>
-        </section>
+      <div
+        className="relative w-full h-screen bg-cover bg-center"
+        style={{
+          backgroundImage: `url('https://res.cloudinary.com/ryry/image/upload/v1724506574/new-mountain_xnxn7k.png')`,
+          margin: "0",
+          padding: "0"
+        }}
+      >
+        <div
+          className="absolute inset-0 z-10"
+          style={{
+            backgroundImage: `linear-gradient(to bottom, rgba(255, 255, 255, 0) 90%, rgba(255, 255, 255, 1) 100%), url('https://res.cloudinary.com/ryry/image/upload/v1724508965/new-mountain_2_1_ghstbl.png')`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            pointerEvents: "none"
+          }}
+        />
 
-        <section>
-          {experiences.map((exp, index) => (
-            <div
-              key={index}
-              className="flex flex-col md:flex-row items-start mb-12"
-            >
-              <div className="md:w-1/3 mb-4 md:mb-0">
-                <img
-                  src={exp.logo}
-                  alt={`${exp.company} logo`}
-                  className="work-logo w-40 h-auto mx-auto md:mx-0"
-                />
-              </div>
-              <div className="md:w-2/3 md:pl-8">
-                <h3 className="text-2xl font-semibold">{exp.role}</h3>
-                <p className="text-gray-500 mb-2">{exp.duration}</p>
-                <ul className="list-disc list-inside text-gray-700 space-y-1">
-                  {exp.description.map((item, i) => (
-                    <li key={i}>{item}</li>
-                  ))}
-                </ul>
-              </div>
+        <div className="container mx-auto px-4 py-12 relative z-0">
+          <section className="h-screen w-full flex items-start pt-[28vh] text-center justify-center ">
+            <div className="w-full  max-w-[50vw] flex flex-col ">
+              <h1 className="text-white font-bold text-8xl mb-4 m-0 p-0 ">
+                Professional Career
+              </h1>
+              <p className="text-md text-gray-700 text-white text-xl p-0 ">
+                I'm passionate about working with React, Node.js, Contentful,
+                Tailwind, HTML, CSS, and Optimizely. I also enjoy leveraging
+                tools like BrowserStack, Figma, Photoshop, HubSpot, GA4,
+                SEMrush, Wix, WordPress, and many others.
+              </p>
             </div>
-          ))}
-        </section>
+          </section>
+
+          <section className="py-16 flex flex-col">
+            {experiences.map((exp, index) => (
+              <div
+                key={index}
+                className="flex flex-col md:flex-row items-start mb-24"
+              >
+                <div className="flex-shrink-0 mb-4 md:mb-0 md:mr-8 max-w-[150px] min-w-[150px] ">
+                  <img
+                    src={exp.logo}
+                    alt={`${exp.company} logo`}
+                    className="w-auto h-16 mx-auto md:mx-0 "
+                  />
+                </div>
+                <div className="flex-grow">
+                  <h3 className="text-2xl font-semibold text-gray-700 hover:text-gray-500 mb-2">
+                    {exp.role}
+                  </h3>
+                  <p className="text-sm text-gray-400 mb-4 ">{exp.duration}</p>
+                  <ul className="list-disc list-inside text-gray-600 space-y-2 list-none">
+                    {exp.description.map((item, i) => (
+                      <li key={i}>- {item}</li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            ))}
+          </section>
+        </div>
       </div>
     </div>
   );
