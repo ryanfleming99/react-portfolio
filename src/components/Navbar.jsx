@@ -5,9 +5,9 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="absolute top-0 left-0 w-full bg-transparent p-12 z-10">
-      <div className="container mx-auto flex justify-between items-center">
-        <div className="text-white  text-lg">
+    <nav className="absolute top-0 left-0 w-full bg-transparent p-24 z-10">
+      <div className="container mx-auto flex justify-between min-w-full items-center">
+        <div className="text-white text-lg">
           <p>Hello I'm</p>
         </div>
         <div className="block lg:hidden">
@@ -31,17 +31,17 @@ const Navbar = () => {
         <div
           className={`${
             isOpen ? "block" : "hidden"
-          } lg:flex lg:items-center w-full lg:w-auto`}
+          } lg:flex lg:items-center lg:space-x-14`} // Adjust spacing between links
         >
           <Link
             to="/what-i-do"
-            className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-400 mr-14"
+            className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-400"
           >
             What I do
           </Link>
           <Link
             to="/projects"
-            className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-400 mr-14"
+            className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-400"
           >
             Projects
           </Link>

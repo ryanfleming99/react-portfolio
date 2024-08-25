@@ -31,7 +31,7 @@ const Homepage = () => {
         <Navbar /> {/* Navbar should be under the blur */}
         {/* Main Section - Centered Under Navbar */}
         {!blurred && (
-          <div className="flex-grow flex flex-col items-start justify-center p-12 max-w-full">
+          <div className="flex-grow flex flex-col items-start h-full justify-center p-24 max-w-full container mx-auto">
             <h1 className="text-white font-bold text-9xl mb-4">Ryan Fleming</h1>
 
             {/* Additional Content Section */}
@@ -52,7 +52,7 @@ const Homepage = () => {
         )}
         {/* Social Icons */}
         {!blurred && (
-          <div className="flex justify-end space-x-6 mt-8 mb-8 p-12">
+          <div className="flex justify-end space-x-6 mt-8 mb-8 p-24">
             <a
               target="_blank"
               rel="noopener noreferrer"
