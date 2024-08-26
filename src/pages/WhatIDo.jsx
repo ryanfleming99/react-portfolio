@@ -7,14 +7,15 @@ const experiences = [
     company: "ClassPass",
     duration: "April 2023 - Present",
     description: [
-      "Designed and developed visually engaging websites using Hubspot CMS, WordPress, Webflow, and Wix.",
-      "Enhanced website performance and visibility through SEO optimization, utilizing tools like SEMrush, Google Search Console, and PageSpeed Insights.",
-      "Collaborated with project managers, design teams, and clients to consistently deliver comprehensive websites.",
-      "Conducted daily quality assurance, strategic planning, and project management to ensure optimal outcomes.",
-      "Facilitated monthly training sessions to upskill colleagues in web development, email design, Adobe software, and QA testing."
+      "Executed and managed CRO experiments using Optimizely, leveraging JavaScript, HTML, and CSS to optimize web features and improve performance.",
+      "Conducted thorough quality assurance testing across multiple devices and browsers to ensure a consistent and seamless user experience",
+      "Led the complete redevelopment of corporate and partner websites, significantly enhancing functionality and user experience.",
+      "Monitored web analytics using Google Analytics to evaluate the effectiveness of experiments and provide actionable insights.",
+      "Implemented a fully restructured blog using HubSpot's modular system, improving structure, maintainability, and customization.",
+      "Managed multiple marketing campaigns simultaneously, ensuring consistent messaging and alignment with overall business objectives across various channels."
     ],
     logo:
-      "https://res.cloudinary.com/ryry/image/upload/v1724496110/marketopia-logo_qoo5iu.webp"
+      "https://res.cloudinary.com/ryry/image/upload/v1724675895/New_Project_7_ymrhtz.webp"
   },
   {
     role: "Front End Developer",
