@@ -64,3 +64,8 @@ h6 {
 .animate-pulse {
   animation: pulse 1.5s infinite;
 }
+
+.mobilenone {
+display:none;
+
+}

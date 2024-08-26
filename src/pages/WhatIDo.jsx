@@ -3,6 +3,20 @@ import Navbar from "../components/Navbar"; // Assuming you have a Navbar compone
 
 const experiences = [
   {
+    role: "Senior Marketing CRO Developer",
+    company: "ClassPass",
+    duration: "April 2023 - Present",
+    description: [
+      "Designed and developed visually engaging websites using Hubspot CMS, WordPress, Webflow, and Wix.",
+      "Enhanced website performance and visibility through SEO optimization, utilizing tools like SEMrush, Google Search Console, and PageSpeed Insights.",
+      "Collaborated with project managers, design teams, and clients to consistently deliver comprehensive websites.",
+      "Conducted daily quality assurance, strategic planning, and project management to ensure optimal outcomes.",
+      "Facilitated monthly training sessions to upskill colleagues in web development, email design, Adobe software, and QA testing."
+    ],
+    logo:
+      "https://res.cloudinary.com/ryry/image/upload/v1724496110/marketopia-logo_qoo5iu.webp"
+  },
+  {
     role: "Front End Developer",
     company: "Marketopia",
     duration: "Jan 2022 - Present",
@@ -191,9 +205,7 @@ const WhatIDo = () => {
       <div
         className="relative w-full h-screen bg-cover bg-center"
         style={{
-          backgroundImage: `url('https://res.cloudinary.com/ryry/image/upload/v1724506574/new-mountain_xnxn7k.png')`,
-          margin: "0",
-          padding: "0"
+          backgroundImage: `url('https://res.cloudinary.com/ryry/image/upload/v1724506574/new-mountain_xnxn7k.png')`
         }}
       >
         <div
@@ -207,12 +219,12 @@ const WhatIDo = () => {
         />
 
         <div className="container mx-auto px-4 py-12 relative z-0">
-          <section className="h-screen w-full flex items-start pt-[28vh] text-center justify-center ">
-            <div className="w-full  max-w-[50vw] flex flex-col ">
-              <h1 className="text-white font-bold text-8xl mb-4 m-0 p-0 ">
+          <section className="h-screen w-full flex items-start sm:items-center md:items-start justify-center  text-center pt-[10vh] sm:pt-[28vh]">
+            <div className="w-full max-w-[90vw] sm:max-w-[60vw] md:max-w-[50vw] flex flex-col">
+              <h1 className="text-white font-bold text-5xl sm:text-6xl md:text-8xl mb-4">
                 Professional Career
               </h1>
-              <p className="text-md text-gray-700 text-white text-xl p-0 ">
+              <p className="text-md text-white text-lg sm:text-xl p-0">
                 I'm passionate about working with React, Node.js, Contentful,
                 Tailwind, HTML, CSS, and Optimizely. I also enjoy leveraging
                 tools like BrowserStack, Figma, Photoshop, HubSpot, GA4,
@@ -221,27 +233,29 @@ const WhatIDo = () => {
             </div>
           </section>
 
-          <section className="py-16 flex flex-col">
+          <section className="py-12 sm:py-16 flex flex-col">
             {experiences.map((exp, index) => (
               <div
                 key={index}
-                className="flex flex-col md:flex-row items-start mb-24"
+                className="flex flex-col md:flex-row items-start mb-16 md:mb-24"
               >
-                <div className="flex-shrink-0 mb-4 md:mb-0 md:mr-8 max-w-[150px] min-w-[150px] ">
+                <div className="flex-shrink-0 mb-4 md:mb-0 md:mr-8 max-w-[100px] sm:max-w-[120px] md:max-w-[150px] min-w-[100px] sm:min-w-[120px] md:min-w-[150px]">
                   <img
                     src={exp.logo}
                     alt={`${exp.company} logo`}
-                    className="w-auto h-16 mx-auto md:mx-0 "
+                    className="w-auto h-12 sm:h-14 md:h-16 mx-auto md:mx-0"
                   />
                 </div>
                 <div className="flex-grow">
-                  <h3 className="text-2xl font-semibold text-gray-700 hover:text-gray-500 mb-2">
+                  <h3 className="text-xl sm:text-2xl font-semibold text-gray-700 hover:text-gray-500 mb-2">
                     {exp.role}
                   </h3>
-                  <p className="text-sm text-gray-400 mb-4 ">{exp.duration}</p>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2 list-none">
+                  <p className="text-sm sm:text-base text-gray-400 mb-4">
+                    {exp.duration}
+                  </p>
+                  <ul className="list-disc list-inside text-gray-600 space-y-2 pl-4">
                     {exp.description.map((item, i) => (
-                      <li key={i}>- {item}</li>
+                      <li key={i}>{item}</li>
                     ))}
                   </ul>
                 </div>
