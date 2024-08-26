@@ -58,7 +58,7 @@ const Homepage = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.linkedin.com/in/rynfle2132ming/"
+              href="https://www.linkedin.com/in/rynfleming/"
               className="text-white text-3xl hover:text-gray-400"
             >
               <i className="fab fa-linkedin"></i>
@@ -66,7 +66,7 @@ const Homepage = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.behance.net/RYANFLE21MINac44"
+              href="#"
               className="text-white text-3xl hover:text-gray-400"
             >
               <i className="fab fa-behance-square"></i>
@@ -74,7 +74,7 @@ const Homepage = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://github.com/ryanf213leming99"
+              href="https://github.com/ryanfleming99"
               className="text-white text-3xl hover:text-gray-400"
             >
               <i className="fab fa-github-square"></i>
