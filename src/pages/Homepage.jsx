@@ -66,7 +66,7 @@ const Homepage = () => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="#"
+              href="https://www.linkedin.com/in/rynfleming/"
               className="text-white text-3xl hover:text-gray-400"
             >
               <i className="fab fa-behance-square"></i>
