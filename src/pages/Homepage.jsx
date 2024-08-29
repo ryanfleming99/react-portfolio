@@ -22,7 +22,8 @@ const Homepage = () => {
           backgroundSize: "cover",
           backgroundPosition: "center",
           zIndex: 1,
-          pointerEvents: "none"
+          pointerEvents: "none",
+          height: "150vh"
         }}
       />
 
@@ -32,7 +33,7 @@ const Homepage = () => {
         {/* Main Section - Centered Under Navbar */}
         {!blurred && (
           <div className="flex-grow flex flex-col items-left h-full p-8 pt-32  sm:p-12 sm:justify-center sm:pb-24  md:justify-center   md:p-24 max-w-full container mx-auto">
-            <h1 className=" text-white font-bold text-6xl sm:text-7xl md:text-9xl mb-4 -ml-1 sm:-ml-2 text-center md:text-left lg:text-left">
+            <h1 className="drop-shadow-md text-white font-bold text-6xl sm:text-7xl md:text-9xl mb-4 -ml-1 sm:-ml-2 text-center md:text-left lg:text-left">
               Ryan Fleming
             </h1>
 
