@@ -6,14 +6,14 @@ const CVDownloadPage = () => {
     <div
       className="relative min-h-screen bg-cover bg-center"
       style={{
-        backgroundImage: `url('https://res.cloudinary.com/ryry/image/upload/v1724678621/ry_boi_White_marble_statue_of_a_man_doing_jiu_jitsu_in_a_minima_acc07f02-a4a4-4747-a8bb-d1be38683a04_ex6lju.webp')`,
+        backgroundImage: `url('https://res-console.cloudinary.com/ryry/thumbnails/v1/image/upload/v1725311168/TmV3X1Byb2plY3RfMTFfdDE3d3gx/drilldown')`,
         backgroundColor: "#D1D0CE",
         backgroundPosition: "center"
       }}
     >
       {/* Overlay Image */}
       <div
-        className="absolute inset-0"
+        className="absolute inset-0 fade-out"
         style={{
           backgroundImage: `url('https://res.cloudinary.com/ryry/image/upload/v1724678716/ry_boi_White_marble_statue_of_a_man_doing_jiu_jitsu_in_a_minima_acc07f02-a4a4-4747-a8bb-d1be38683a04_1_ciwjsh.webp')`,
           backgroundSize: "cover",

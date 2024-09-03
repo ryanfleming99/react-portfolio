@@ -16,24 +16,23 @@ const Homepage = () => {
     >
       {/* Overlay Image */}
       <div
-        className="absolute inset-0 "
+        className="absolute inset-0 fade-out"
         style={{
           backgroundImage: `url('https://res.cloudinary.com/ryry/image/upload/v1723998454/ryan-sitting-with-laptop-overlay_ouyp5x.webp')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           zIndex: 1,
-          pointerEvents: "none",
-          height: "150vh"
+          pointerEvents: "none"
         }}
       />
 
       {/* Main Content (Navbar + other content) */}
-      <div className="relative z-0 flex flex-col min-h-screen">
+      <div className="relative flex flex-col min-h-screen">
         <Navbar /> {/* Navbar should be under the blur */}
         {/* Main Section - Centered Under Navbar */}
         {!blurred && (
-          <div className="flex-grow flex flex-col items-left h-full p-8 pt-32  sm:p-12 sm:justify-center sm:pb-24  md:justify-center   md:p-24 max-w-full container mx-auto">
-            <h1 className="drop-shadow-md text-white font-bold text-6xl sm:text-7xl md:text-9xl mb-4 -ml-1 sm:-ml-2 text-center md:text-left lg:text-left">
+          <div className=" flex-grow flex flex-col items-left h-full p-8 pt-32  sm:p-12 sm:justify-center sm:pb-24  md:justify-center   md:p-24 max-w-full container mx-auto">
+            <h1 className=" drop-shadow-md text-white font-bold text-6xl sm:text-7xl md:text-9xl mb-4 -ml-1 sm:-ml-2 text-center md:text-left lg:text-left">
               Ryan Fleming
             </h1>
 

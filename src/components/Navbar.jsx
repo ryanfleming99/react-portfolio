@@ -42,19 +42,19 @@ const Navbar = () => {
         >
           <Link
             to="/what-i-do"
-            className={`block ${textColor} hover:text-gray-400`}
+            className={`block ${textColor} hover:text-gray-400 drop-shadow-md`}
           >
             What I do
           </Link>
           <Link
             to="/projects"
-            className={`block ${textColor} hover:text-gray-400`}
+            className={`block ${textColor} hover:text-gray-400 drop-shadow-md`}
           >
             Projects
           </Link>
           <Link
             to="/contact"
-            className={`block ${textColor} hover:text-gray-400`}
+            className={`block ${textColor} hover:text-gray-400 drop-shadow-md`}
           >
             Contact
           </Link>

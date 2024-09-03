@@ -206,13 +206,13 @@ const WhatIDo = () => {
       <div
         className="relative w-full h-screen bg-cover bg-center"
         style={{
-          backgroundImage: `url('https://res.cloudinary.com/ryry/image/upload/v1724506574/new-mountain_xnxn7k.png')`
+          backgroundImage: `linear-gradient(to bottom, rgba(255, 255, 255, 0) 90%, rgba(255, 255, 255, 1) 100%),  url('https://res.cloudinary.com/ryry/image/upload/v1724506574/new-mountain_xnxn7k.png')`
         }}
       >
         <div
-          className="absolute inset-0 z-10"
+          className="absolute inset-0 z-10 fade-out"
           style={{
-            backgroundImage: `linear-gradient(to bottom, rgba(255, 255, 255, 0) 90%, rgba(255, 255, 255, 1) 100%), url('https://res.cloudinary.com/ryry/image/upload/v1724508965/new-mountain_2_1_ghstbl.png')`,
+            backgroundImage: `url('https://res.cloudinary.com/ryry/image/upload/v1724508965/new-mountain_2_1_ghstbl.png')`,
             backgroundSize: "cover",
             backgroundPosition: "center",
             pointerEvents: "none"
@@ -222,10 +222,10 @@ const WhatIDo = () => {
         <div className="container mx-auto px-4 py-12 relative z-0">
           <section className="h-screen w-full flex items-start sm:items-center md:items-start justify-center  text-center pt-[10vh] sm:pt-[28vh]">
             <div className="w-full max-w-[90vw] sm:max-w-[60vw] md:max-w-[50vw] flex flex-col">
-              <h1 className="text-white font-bold text-5xl sm:text-6xl md:text-8xl mb-4">
+              <h1 className="drop-shadow-md text-white font-bold text-5xl sm:text-6xl md:text-8xl mb-4">
                 Professional Career
               </h1>
-              <p className="text-md text-white text-lg sm:text-xl p-0">
+              <p className="drop-shadow-md text-md text-white text-lg sm:text-xl p-0">
                 I'm passionate about working with React, Node.js, Contentful,
                 Tailwind, HTML, CSS, and Optimizely. I also enjoy leveraging
                 tools like BrowserStack, Figma, Photoshop, HubSpot, GA4,
