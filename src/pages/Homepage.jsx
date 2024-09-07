@@ -61,7 +61,7 @@ const Homepage = () => {
               href="https://www.linkedin.com/in/rynfleming/"
               className="text-white text-3xl hover:text-gray-400"
             >
-              <i className="fab fa-linkedin"></i>
+              <i className="fab fa-linkedin drop-shadow"></i>
             </a>
             <a
               target="_blank"
@@ -69,7 +69,7 @@ const Homepage = () => {
               href="https://www.linkedin.com/in/rynfleming/"
               className="text-white text-3xl hover:text-gray-400"
             >
-              <i className="fab fa-behance-square"></i>
+              <i className="fab fa-behance-square drop-shadow"></i>
             </a>
             <a
               target="_blank"
@@ -77,7 +77,7 @@ const Homepage = () => {
               href="https://github.com/ryanfleming99"
               className="text-white text-3xl hover:text-gray-400"
             >
-              <i className="fab fa-github-square"></i>
+              <i className="fab fa-github-square drop-shadow"></i>
             </a>
           </div>
         )}

@@ -46,7 +46,7 @@ const Projects = () => {
       <div
         className="relative w-full h-[40vh] bg-cover bg-center md:h-[100vh] lg:h-[100vh]"
         style={{
-          backgroundImage: `linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, 1) 100%), url('https://res.cloudinary.com/ryry/image/upload/v1724599173/ry_boi_White_marble_statue_of_a_desk_setup_with_a_closed_macboo_db608350-82ac-4b62-be58-0d69c026a7a1_2_ix52gv.webp')`
+          backgroundImage: `linear-gradient(to bottom, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1) 100%), url('https://res.cloudinary.com/ryry/image/upload/v1725707966/image_3_jwptdt.webp')`
         }}
       >
         <div

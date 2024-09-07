@@ -27,35 +27,35 @@ const CVDownloadPage = () => {
       <div className="relative z-0 flex flex-col min-h-screen">
         <Navbar /> {/* Navbar */}
         {/* Content Section */}
-        <div className="flex-grow flex flex-col items-center justify-center p-8 pt-48 sm:p-12 md:p-24 max-w-full container mx-auto text-center h-full">
-          <div>
+        <div className="flex-grow flex flex-col items-center justify-end p-8 pt-48 sm:p-12 md:p-24 max-w-full container mx-auto text-center h-full">
+          <div className="">
             <a
               href="https://res.cloudinary.com/ryry/image/upload/v1725706555/rfcv_dwfnjm.pdf"
               window="_blank"
             >
-              <button className="mt-44 text-white font-bold sm:text-3xl md:text-2xl mb-8 animate-bounce">
+              <button className="drop-shadow text-white font-bold sm:text-3xl md:text-3xl mb-48 animate-bounce">
                 CLICK ME
               </button>
             </a>
           </div>
 
           {/* Social Icons */}
-          <div className="flex justify-center space-x-6 mt-24">
+          <div className="flex justify-center space-x-6 mt-24 mb-16 ">
             <a
               target="_blank"
               rel="noopener noreferrer"
               href="https://www.linkedin.com/in/rynfleming/"
               className="text-white text-3xl hover:text-gray-400"
             >
-              <i className="fab fa-linkedin"></i>
+              <i className="fab fa-linkedin drop-shadow"></i>
             </a>
             <a
               target="_blank"
               rel="noopener noreferrer"
               href="https://www.linkedin.com/in/rynfleming/"
-              className="text-white text-3xl hover:text-gray-400"
+              className="text-white text-3xl hover:text-gray-400 "
             >
-              <i className="fab fa-behance-square"></i>
+              <i className="fab fa-behance-square drop-shadow"></i>
             </a>
             <a
               target="_blank"
@@ -63,7 +63,7 @@ const CVDownloadPage = () => {
               href="https://github.com/ryanfleming99"
               className="text-white text-3xl hover:text-gray-400"
             >
-              <i className="fab fa-github-square"></i>
+              <i className="fab fa-github-square drop-shadow"></i>
             </a>
           </div>
         </div>
