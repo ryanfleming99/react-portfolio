@@ -6,7 +6,7 @@ const CVDownloadPage = () => {
     <div
       className="relative min-h-screen bg-cover bg-center"
       style={{
-        backgroundImage: `url('https://res-console.cloudinary.com/ryry/thumbnails/v1/image/upload/v1725311168/TmV3X1Byb2plY3RfMTFfdDE3d3gx/drilldown')`,
+        backgroundImage: `url('https://res.cloudinary.com/ryry/image/upload/v1725702520/cv-background-scroll_gf9z8v.webp')`,
         backgroundColor: "#D1D0CE",
         backgroundPosition: "center"
       }}
@@ -27,23 +27,20 @@ const CVDownloadPage = () => {
       <div className="relative z-0 flex flex-col min-h-screen">
         <Navbar /> {/* Navbar */}
         {/* Content Section */}
-        <div className="flex-grow flex flex-col items-start justify-center p-8 pt-32 sm:p-12 md:p-24 max-w-full container mx-auto text-center">
-          <h1 className="text-white font-bold text-5xl sm:text-6xl md:text-8xl mb-8">
-            Curriculum Vitae
-          </h1>
-
-          <div className="mt-8">
+        <div className="flex-grow flex flex-col items-center justify-center p-8 pt-48 sm:p-12 md:p-24 max-w-full container mx-auto text-center h-full">
+          <div>
             <a
-              href="https://res.cloudinary.com/ryry/image/upload/v1724678192/RyanFlemingCV_ud47du.pdf"
-              download
-              className="bg-gray-700 text-white font-bold py-4 px-6 rounded-lg hover:bg-white"
+              href="https://res.cloudinary.com/ryry/image/upload/v1725706555/rfcv_dwfnjm.pdf"
+              window="_blank"
             >
-              Here's my cv
+              <button className="mt-44 text-white font-bold sm:text-3xl md:text-2xl mb-8 animate-bounce">
+                CLICK ME
+              </button>
             </a>
           </div>
 
           {/* Social Icons */}
-          <div className="flex justify-center space-x-6 mt-12">
+          <div className="flex justify-center space-x-6 mt-24">
             <a
               target="_blank"
               rel="noopener noreferrer"

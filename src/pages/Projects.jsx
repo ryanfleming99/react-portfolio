@@ -82,7 +82,7 @@ const Projects = () => {
                 alt={project.title}
                 className="w-full md:w-1/2  object-cover"
               />
-              <div className="p-6 w-full md:w-1/2 text-center md:text-left">
+              <div className="p-6 w-full md:w-1/2 text-center md:text-left sm:h-full">
                 <h3 className="text-xl sm:text-2xl font-semibold text-gray-700 mb-2">
                   {project.title}
                 </h3>
