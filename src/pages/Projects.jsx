@@ -69,11 +69,11 @@ const Projects = () => {
 
       {/* Project Section */}
       <section className="py-12 sm:py-16 container mx-auto px-4">
-        <div className="flex flex-col space-y-24">
+        <div className="flex flex-col space-y-24 ">
           {projects.map((project, index) => (
             <div
               key={index}
-              className={`bg-white shadow-lg h-[50vh] rounded-lg overflow-hidden flex flex-col md:flex-row ${
+              className={`bg-white shadow-lg h-[100%] rounded-lg overflow-hidden flex flex-col md:flex-row md:h-[50vh] ${
                 index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
               } items-center`}
             >
@@ -82,7 +82,7 @@ const Projects = () => {
                 alt={project.title}
                 className="w-full md:w-1/2  object-cover"
               />
-              <div className="p-6 w-full md:w-1/2 text-center md:text-left sm:h-full">
+              <div className="p-6 w-full md:w-1/2 text-center md:text-left flex flex-col justify-center">
                 <h3 className="text-xl sm:text-2xl font-semibold text-gray-700 mb-2">
                   {project.title}
                 </h3>
