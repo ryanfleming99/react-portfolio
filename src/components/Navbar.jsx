@@ -6,18 +6,18 @@ const Navbar = () => {
   const location = useLocation();
 
   const textColor =
-    location.pathname === "/what-i-do" || location.pathname === "/projects"
-      ? "text-gray"
-      : "text-white";
+    location.pathname === "/professionalCareer" || location.pathname === "/"
+      ? "text-white"
+      : "text-black";
 
   return (
     <nav className="absolute top-0 left-0 w-full bg-transparent p-6 sm:p-8 md:p-12 z-10">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="text-white text-lg"></div>
+        <div className="text-black text-lg"></div>
         <div className="block lg:hidden">
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="text-white focus:outline-none"
+            className="text-black focus:outline-none"
           >
             <svg
               className="w-6 h-6"
