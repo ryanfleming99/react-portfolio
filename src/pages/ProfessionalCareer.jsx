@@ -210,7 +210,7 @@ const WhatIDo = () => {
         }}
       >
         <div
-          className="absolute inset-0 z-10 fade-out"
+          className="absolute inset-0 z-10 fade-out bg-opacity-80	"
           style={{
             backgroundImage: `url('https://res.cloudinary.com/ryry/image/upload/v1724508965/new-mountain_2_1_ghstbl.png')`,
             backgroundSize: "cover",

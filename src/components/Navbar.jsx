@@ -41,10 +41,10 @@ const Navbar = () => {
           } lg:flex lg:items-center lg:space-x-10 absolute lg:static top-12 left-0 w-full lg:w-auto bg-transparent lg:bg-none p-6 lg:p-0 z-20 flex-row justify-between`}
         >
           <Link
-            to="/what-i-do"
+            to="/professional-career"
             className={`block ${textColor} hover:text-gray-400 drop-shadow-md`}
           >
-            What I do
+            Career
           </Link>
           <Link
             to="/projects"

@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar"; // Assuming you have a Navbar component
+import ScrollButton from "../components/ScrollButton";
 
 const projects = [
   {
@@ -27,26 +28,26 @@ const projects = [
     link: "https://munchiesondemand.co.uk"
   },
   {
-    title: "MMH - Mental health website",
+    title: "MMH - Mens Mental Health Website",
     description:
       "I designed a mental health website using Figma, with the primary goal of fostering community and support through various categories dedicated to different aspects of mental health. The platform is structured to not only provide resources but also to encourage social events and connections among users, helping them find support networks and participate in activities that promote well-being. ",
     image:
-      "https://res.cloudinary.com/ryry/image/upload/v1724673737/Screenshot_2024-08-26_at_13.01.46_yc1ot4.webp", // Replace with your HD image URL
-    link: "#"
+      "https://res.cloudinary.com/ryry/image/upload/v1730034835/website%20images/Screenshot_2024-10-27_at_13.10.35_k38vo2.webp", // Replace with your HD image URL
+    link: "https://mmhw.netlify.app/"
   }
   // Add more projects as needed
 ];
 
 const Projects = () => {
   return (
-    <div className="bg-blue">
+    <div className="bg-blue projectsNav">
       <Navbar />
 
       {/* Top Section with Background Image */}
       <div
         className="relative w-full h-[40vh] bg-cover bg-center md:h-[100vh] lg:h-[100vh]"
         style={{
-          backgroundImage: `linear-gradient(to bottom, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1) 100%), url('https://res.cloudinary.com/ryry/image/upload/v1725707966/image_3_jwptdt.webp')`
+          backgroundImage: `linear-gradient(to bottom, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1) 100%), url('https://res.cloudinary.com/ryry/image/upload/v1728138727/public-design-jobs/ry_boi_hyperrealistic_white_only_alabaster_statues_london_white_ee1414a5-55e3-46fd-98d4-e581eb856dad_1_cyzh2h.webp')`
         }}
       >
         <div
@@ -58,45 +59,51 @@ const Projects = () => {
           }}
         />
 
-        <div className="container mx-auto px-4 py-12 relative z-0">
-          <section className="h-screen w-full flex items-center pt-[20vh] sm:pt-[28vh] text-center justify-center">
+        <div className="container mx-auto px-4 py-2 relative z-0">
+          <section className="h-screen w-full flex items-center text-center justify-center">
             <div className="w-full max-w-[90vw] sm:max-w-[60vw] md:max-w-[50vw] flex flex-col">
-              {/* Add any introductory text or title here */}
+              <h1 className="drop-shadow-md text-white font-bold text-4xl sm:text-4xl md:text-8xl text-center ">
+                Digital Gallery
+              </h1>
+              <ScrollButton targetId="projects-section">&#8595;</ScrollButton>
             </div>
           </section>
         </div>
       </div>
 
       {/* Project Section */}
-      <section className="py-12 sm:py-16 container mx-auto px-4">
+      <section
+        id="projects-section"
+        className="py-12 sm:py-16 container mx-auto px-4"
+      >
         <div className="flex flex-col space-y-24 ">
           {projects.map((project, index) => (
-            <div
-              key={index}
-              className={`bg-white shadow-lg h-[100%] rounded-lg overflow-hidden flex flex-col md:flex-row md:h-[50vh] ${
-                index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
-              } items-center`}
-            >
-              <img
-                src={project.image}
-                alt={project.title}
-                className="w-full md:w-1/2  object-cover"
-              />
-              <div className="p-6 w-full md:w-1/2 text-center md:text-left flex flex-col justify-center">
-                <h3 className="text-xl sm:text-2xl font-semibold text-gray-700 mb-2">
-                  {project.title}
-                </h3>
-                <p className="text-gray-600 mb-4">{project.description}</p>
-                <a
-                  href={project.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-500 hover:text-blue-700"
-                >
-                  View Project
-                </a>
+            <a href={project.link} className="w-auto h-auto" target="_blank">
+              <div
+                key={index}
+                className={` overflow-hidden flex flex-col md:flex-row py-2 ${
+                  index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
+                } items-center`}
+              >
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full md:w-1/2  object-cover"
+                />
+                <div className="p-6 w-full md:w-1/2 text-center md:text-left flex flex-col justify-center">
+                  <h3 className="text-xl sm:text-2xl font-semibold text-gray-700 mb-2">
+                    {project.title}
+                  </h3>
+                  <p className="text-gray-600 mb-4">{project.description}</p>
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-500 text-xl hover:text-blue-700"
+                  ></a>
+                </div>
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </section>
