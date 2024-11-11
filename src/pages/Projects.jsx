@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar"; // Assuming you have a Navbar component
 import ScrollButton from "../components/ScrollButton";
-import toolIcons from "../utils/toolIcons"; // Import the centralized icons
 
 const projects = [
   {
@@ -96,7 +95,12 @@ const Projects = () => {
       >
         <div className="flex flex-col space-y-24 ">
           {projects.map((project, index) => (
-            <a href={project.link} className="w-auto h-auto" target="_blank">
+            <a
+              href={project.link}
+              className="w-auto h-auto"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <div
                 key={index}
                 className={` overflow-hidden flex flex-col md:flex-row py-2 ${
