@@ -122,7 +122,9 @@ const Projects = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-500 text-xl hover:text-blue-700"
-                  ></a>
+                  >
+                    Visit website
+                  </a>
                 </div>
               </div>
             </a>
