@@ -32,6 +32,7 @@ const CVDownloadPage = () => {
             <a
               href="https://res.cloudinary.com/ryry/image/upload/v1725706555/rfcv_dwfnjm.pdf"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <button className="drop-shadow text-white font-bold sm:text-3xl md:text-3xl mb-48">
                 Click to open CV in a new window

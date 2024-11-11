@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import { useNavigate } from "react-router-dom";
 import { QRCodeCanvas } from "qrcode.react"; // Import QR Code
-import toolIcons from "../utils/toolIcons";
 
 const Homepage = () => {
   const [blurred, setBlurred] = useState(true);
