@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import Navbar from "../components/Navbar";
+import { useNavigate } from "react-router-dom"; // Import useNavigate
 
 const Homepage = () => {
+  const navigate = useNavigate();
   const [blurred, setBlurred] = useState(true);
 
   return (
@@ -15,21 +17,22 @@ const Homepage = () => {
     >
       {/* Overlay Image */}
       <div
-        className="absolute inset-0 fade-out"
+        className="absolute inset-0"
         style={{
           backgroundImage: `url('https://res.cloudinary.com/ryry/image/upload/v1723998454/ryan-sitting-with-laptop-overlay_ouyp5x.webp')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
-          zIndex: 1,
+          zIndex: 3,
           pointerEvents: "none"
         }}
       />
 
       {/* Main Content (Navbar + other content) */}
       <div
-        className={`relative flex flex-col min-h-screen transition-opacity duration-700 ${
-          blurred ? "opacity-0" : "opacity-100"
-        }`}
+        className={`relative flex flex-col min-h-screen`}
+        style={{
+          zIndex: 2 // Ensure text is above the overlay
+        }}
       >
         <Navbar />
 
@@ -42,16 +45,26 @@ const Homepage = () => {
           {/* Additional Content Section */}
           <div className="text-white text-lg sm:text-xl text-center max-w-md md:text-left lg:text-left ml-0">
             <p>
-              I specialize in data, marketing tools, AI, game development, 3D
-              modeling, and all things web.
+              I specialize in web development, marketing tools, AI, game
+              development, 3D modeling, and all things web.
             </p>
-            <p className="text-xs mt-4 hidden md:block lg:block">
-              Hire me, you can find my CV on the{" "}
-              <a className="hover:text-blue-300" href="/contact">
-                contact
-              </a>{" "}
-              page.
-            </p>
+            <button
+              onClick={() => navigate("/projects")}
+              style={{
+                padding: "10px 20px",
+                backgroundColor: "#ffffff",
+                color: "#7e7c7b",
+                border: "none",
+                borderRadius: "5px",
+                cursor: "pointer",
+                fontSize: "18px",
+                filter:
+                  "drop-shadow(0 4px 3px rgba(0, 0, 0, 0.07)) drop-shadow(0 2px 2px rgba(0, 0, 0, 0.06))",
+                margin: "24px 0 0 0" // Replace the semicolon here with a comma
+              }}
+            >
+              View Projects
+            </button>
           </div>
         </div>
 
@@ -64,14 +77,6 @@ const Homepage = () => {
             className="text-white text-3xl hover:text-gray-400"
           >
             <i className="fab fa-linkedin drop-shadow"></i>
-          </a>
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.linkedin.com/in/rynfleming/"
-            className="text-white text-3xl hover:text-gray-400"
-          >
-            <i className="fab fa-behance-square drop-shadow"></i>
           </a>
           <a
             target="_blank"

@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar"; // Assuming you have a Navbar component
 import ScrollButton from "../components/ScrollButton";
+import toolIcons from "../utils/toolIcons"; // Import the centralized icons
 
 const projects = [
   {
@@ -9,7 +10,8 @@ const projects = [
       "Developed a multi-page website using Wix, which I designed using Figma and built independently. The primary objective was to increase conversions, resulting in more bookings for the hotel, café, and equipment rental services.    ",
     image:
       "https://res.cloudinary.com/ryry/image/upload/v1724496106/aviemoreski-hero_u4q2ev.webp", // Replace with your HD image URL
-    link: "https://www.aviemoreski.co.uk/"
+    link: "https://www.aviemoreski.co.uk/",
+    tools: ["Photoshop", "Wix", "Figma", "Javascript"]
   },
   {
     title: "Tiny Lotto",
@@ -34,6 +36,14 @@ const projects = [
     image:
       "https://res.cloudinary.com/ryry/image/upload/v1730034835/website%20images/Screenshot_2024-10-27_at_13.10.35_k38vo2.webp", // Replace with your HD image URL
     link: "https://mmhw.netlify.app/"
+  },
+  {
+    title: "Public Design Jobs",
+    description:
+      "A dynamic platform designed to connect and hire freelance designers from diverse creative disciplines, fostering collaboration on innovative projects. The website integrates a charitable component, with donations facilitated through the service, supporting a fully registered charity.      ",
+    image:
+      "https://res.cloudinary.com/ryry/image/upload/v1731326051/publicdesignjobs.png", // Replace with your HD image URL
+    link: "https://publicdesignjobs.co.uk/"
   }
   // Add more projects as needed
 ];
@@ -59,11 +69,11 @@ const Projects = () => {
           }}
         />
 
-        <div className="container mx-auto px-4 py-2 relative z-0">
-          <section className="h-screen w-full flex items-center text-center justify-center">
+        <div className="container mx-auto px-4 relative z-0">
+          <section className="h-screen w-full flex items-center justify-center text-center">
             <div className="w-full max-w-[90vw] sm:max-w-[60vw] md:max-w-[50vw] flex flex-col">
-              <h1 className="drop-shadow-md text-white font-bold text-4xl sm:text-4xl md:text-8xl text-center ">
-                Digital Gallery
+              <h1 className="drop-shadow-md text-white font-bold text-xl sm:text-7xl md:text-7xl mb-8 text-center">
+                Featured Projects
               </h1>
               <ScrollButton targetId="projects-section">&#8595;</ScrollButton>
             </div>

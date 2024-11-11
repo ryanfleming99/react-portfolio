@@ -2,7 +2,13 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {}
+    extend: {
+      colors: {
+        semiTransparentGray: "rgba(119, 119, 119, 0.35)",
+        semiLightTransparentGray: "rgba(119, 119, 119, 0.61)",
+        semiLightGray: "rgba(119, 119, 119, 0.6)"
+      }
+    }
   },
   plugins: []
 };

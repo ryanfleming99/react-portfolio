@@ -31,10 +31,10 @@ const CVDownloadPage = () => {
           <div className="">
             <a
               href="https://res.cloudinary.com/ryry/image/upload/v1725706555/rfcv_dwfnjm.pdf"
-              window="_blank"
+              target="_blank"
             >
-              <button className="drop-shadow text-white font-bold sm:text-3xl md:text-3xl mb-48 animate-bounce">
-                CLICK ME
+              <button className="drop-shadow text-white font-bold sm:text-3xl md:text-3xl mb-48">
+                Click to open CV in a new window
               </button>
             </a>
           </div>
@@ -48,14 +48,6 @@ const CVDownloadPage = () => {
               className="text-white text-3xl hover:text-gray-400"
             >
               <i className="fab fa-linkedin drop-shadow"></i>
-            </a>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.linkedin.com/in/rynfleming/"
-              className="text-white text-3xl hover:text-gray-400 "
-            >
-              <i className="fab fa-behance-square drop-shadow"></i>
             </a>
             <a
               target="_blank"

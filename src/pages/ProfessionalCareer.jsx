@@ -204,28 +204,18 @@ const WhatIDo = () => {
       <Navbar />
 
       <div
-        className="relative w-full h-screen bg-cover bg-center"
+        className="relative w-full h-screen bg-cover bg-top"
         style={{
-          backgroundImage: `linear-gradient(to bottom, rgba(255, 255, 255, 0) 90%, rgba(255, 255, 255, 1) 100%),  url('https://res.cloudinary.com/ryry/image/upload/v1724506574/new-mountain_xnxn7k.png')`
+          backgroundImage: `linear-gradient(to bottom, rgba(255, 255, 255, 0) 90%, rgba(255, 255, 255, 1) 100%),  url('https://res.cloudinary.com/ryry/image/upload/v1731330960/projects-backgrounds_zdqnqi.jpg')`
         }}
       >
-        <div
-          className="absolute inset-0 z-10 fade-out bg-opacity-80	"
-          style={{
-            backgroundImage: `url('https://res.cloudinary.com/ryry/image/upload/v1724508965/new-mountain_2_1_ghstbl.png')`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            pointerEvents: "none"
-          }}
-        />
-
         <div className="container mx-auto px-4 py-12 relative z-0">
-          <section className="h-screen w-full flex items-start sm:items-center md:items-start justify-center  text-center pt-[10vh] sm:pt-[28vh]">
+          <section className="h-screen w-full flex items-start sm:items-center md:items-start  text-left pt-[10vh] sm:pt-[25vh]">
             <div className="w-full max-w-[90vw] sm:max-w-[60vw] md:max-w-[50vw] flex flex-col">
-              <h1 className="drop-shadow-md text-white font-bold text-5xl sm:text-6xl md:text-8xl mb-4">
+              <h1 className="drop-shadow-md font-bold text-4xl sm:text-4xl md:text-7xl mb-4 text-semiTransparentGray">
                 Professional Career
               </h1>
-              <p className="drop-shadow-md text-md text-white text-lg sm:text-xl p-0">
+              <p className="drop-shadow-md text-md text-md sm:text-md p-0 md:max-w-[38vw] text-semiTransparentGray">
                 I'm passionate about working with React, Node.js, Contentful,
                 Tailwind, HTML, CSS, and Optimizely. I also enjoy leveraging
                 tools like BrowserStack, Figma, Photoshop, HubSpot, GA4,
@@ -248,13 +238,13 @@ const WhatIDo = () => {
                   />
                 </div>
                 <div className="flex-grow">
-                  <h3 className="text-xl sm:text-2xl font-semibold text-gray-700 hover:text-gray-500 mb-2">
+                  <h3 className="text-xl sm:text-2xl font-semibold text-semiTransparentGray mb-2">
                     {exp.role}
                   </h3>
-                  <p className="text-sm sm:text-base text-gray-400 mb-4">
+                  <p className="text-sm sm:text-base text-semiLightTransparentGray mb-4">
                     {exp.duration}
                   </p>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2 pl-4">
+                  <ul className="list-disc list-inside text-semiLightTransparentGray space-y-2 pl-4">
                     {exp.description.map((item, i) => (
                       <li key={i}>{item}</li>
                     ))}

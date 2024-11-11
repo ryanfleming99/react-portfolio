@@ -8,7 +8,7 @@ const Navbar = () => {
   const textColor =
     location.pathname === "/professionalCareer" || location.pathname === "/"
       ? "text-white"
-      : "text-black";
+      : "text-semiTransparentGray";
 
   return (
     <nav className="absolute top-0 left-0 w-full bg-transparent p-6 sm:p-8 md:p-12 z-10">
