@@ -44,6 +44,14 @@ const projects = [
     image:
       "https://res.cloudinary.com/ryry/image/upload/v1731326051/publicdesignjobs.png", // Replace with your HD image URL
     link: "https://publicdesignjobs.co.uk/"
+  },
+  {
+    title: "Job Scraper Adzuna API",
+    description:
+      "TopJobScraper is a UK job search site that connects users to job listings via the Adzuna API. Built with React, hosted on Netlify, and powered by Render, it’s a fast and simple way to find and apply for jobs.      ",
+    image:
+      "https://res.cloudinary.com/ryry/image/upload/v1731334845/Screenshot_2024-11-11_at_14.20.31_unwy5p.png", // Replace with your HD image URL
+    link: "https://topjobscraper.netlify.app/"
   }
   // Add more projects as needed
 ];
