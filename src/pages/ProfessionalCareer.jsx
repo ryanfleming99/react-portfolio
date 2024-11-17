@@ -212,7 +212,7 @@ const WhatIDo = () => {
         <div className="container px-8 sm:px-24 py-12 relative z-0">
           <section className="h-screen w-full flex items-start sm:items-center md:items-start  text-left pt-[15vh] sm:pt-[30vh] sm:pt-[25vh]">
             <div className="w-full max-w-[95vw] sm:max-w-[60vw] md:max-w-[50vw] flex flex-col text-center sm:text-left">
-              <h1 className=" drop-shadow-sm text-gray-400 font-bold text-4xl sm:text-4xl md:text-7xl mb-4 -ml-1 sm:-ml-2 text-center md:text-left lg:text-left">
+              <h1 className="drop-shadow-md text-white font-bold text-4xl sm:text-4xl md:text-7xl mb-4 -ml-1 sm:-ml-2 text-center md:text-left lg:text-left">
                 Professional Career
               </h1>
               <p className="text-md text-md sm:text-md p-0 md:max-w-[38vw] sm:text-gray-400 text-gray-400 ">
