@@ -209,13 +209,13 @@ const WhatIDo = () => {
           backgroundImage: `linear-gradient(to bottom, rgba(255, 255, 255, 0) 90%, rgba(255, 255, 255, 1) 100%),  url('https://res.cloudinary.com/ryry/image/upload/v1731330960/projects-backgrounds_zdqnqi.jpg')`
         }}
       >
-        <div className="container mx-auto px-4 py-12 relative z-0">
-          <section className="h-screen w-full flex items-start sm:items-center md:items-start  text-left pt-[10vh] sm:pt-[25vh]">
-            <div className="w-full max-w-[90vw] sm:max-w-[60vw] md:max-w-[50vw] flex flex-col">
-              <h1 className="drop-shadow-md font-bold text-4xl sm:text-4xl md:text-7xl mb-4 text-semiTransparentGray">
+        <div className="container px-8 sm:px-24 py-12 relative z-0">
+          <section className="h-screen w-full flex items-start sm:items-center md:items-start  text-left pt-[15vh] sm:pt-[30vh] sm:pt-[25vh]">
+            <div className="w-full max-w-[95vw] sm:max-w-[60vw] md:max-w-[50vw] flex flex-col text-center sm:text-left">
+              <h1 className=" drop-shadow-sm text-gray-400 font-bold text-4xl sm:text-4xl md:text-7xl mb-4 -ml-1 sm:-ml-2 text-center md:text-left lg:text-left">
                 Professional Career
               </h1>
-              <p className="drop-shadow-md text-md text-md sm:text-md p-0 md:max-w-[38vw] text-semiTransparentGray">
+              <p className="text-md text-md sm:text-md p-0 md:max-w-[38vw] sm:text-gray-400 text-gray-400 ">
                 I'm passionate about working with React, Node.js, Contentful,
                 Tailwind, HTML, CSS, and Optimizely. I also enjoy leveraging
                 tools like BrowserStack, Figma, Photoshop, HubSpot, GA4,
@@ -238,13 +238,13 @@ const WhatIDo = () => {
                   />
                 </div>
                 <div className="flex-grow">
-                  <h3 className="text-xl sm:text-2xl font-semibold text-semiTransparentGray mb-2">
+                  <h3 className="text-xl sm:text-2xl font-semibold text-gray-400 mb-2">
                     {exp.role}
                   </h3>
-                  <p className="text-sm sm:text-base text-semiLightTransparentGray mb-4">
+                  <p className="text-sm sm:text-base text-gray-400 mb-4">
                     {exp.duration}
                   </p>
-                  <ul className="list-disc list-inside text-semiLightTransparentGray space-y-2 pl-4">
+                  <ul className="list-disc list-inside text-gray-400 space-y-2 pl-4">
                     {exp.description.map((item, i) => (
                       <li key={i}>{item}</li>
                     ))}

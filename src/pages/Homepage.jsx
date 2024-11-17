@@ -1,12 +1,10 @@
 import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import { useNavigate } from "react-router-dom";
-import { QRCodeCanvas } from "qrcode.react"; // Import QR Code
 
 const Homepage = () => {
   const [blurred, setBlurred] = useState(true);
   const navigate = useNavigate();
-  const walletAddress = "yourwallet.crypto"; // Replace with your wallet address
 
   return (
     <div
@@ -19,7 +17,7 @@ const Homepage = () => {
     >
       {/* Overlay Image */}
       <div
-        className="absolute inset-0"
+        className="absolute inset-0 animate-fadeOut sm:animate-none md:animate-fadeOut"
         style={{
           backgroundImage: `url('https://res.cloudinary.com/ryry/image/upload/v1723998454/ryan-sitting-with-laptop-overlay_ouyp5x.webp')`,
           backgroundSize: "cover",
@@ -28,7 +26,7 @@ const Homepage = () => {
           pointerEvents: "none"
         }}
       />
-
+      <Navbar />
       {/* Main Content */}
       <div
         className={`relative flex flex-col min-h-screen`}
@@ -36,10 +34,8 @@ const Homepage = () => {
           zIndex: 2
         }}
       >
-        <Navbar />
-
         {/* Main Section */}
-        <div className="flex-grow flex flex-col items-left h-full p-8 pt-32 sm:p-12 sm:justify-center sm:pb-24 md:justify-center md:p-24 max-w-full container mx-auto">
+        <div className="flex-grow flex flex-col items-left h-full p-8 pt-32 sm:p-12 sm:justify-center sm:pb-24 md:justify-center md:p-24 max-w-full container mx-auto sm:z-10">
           <h1 className="drop-shadow-md text-white font-bold text-6xl sm:text-7xl md:text-9xl mb-4 -ml-1 sm:-ml-2 text-center md:text-left lg:text-left">
             Ryan Fleming
           </h1>
@@ -67,23 +63,6 @@ const Homepage = () => {
             >
               View Projects
             </button>
-            {/* Bitcoin Wallet Section */}
-            <div className="flex w-full items-center justify-start space-x-4 mb-6 py-12 rounded-lg ">
-              {/* QR Code */}
-              <div className="bg-white p-1 rounded-md">
-                <QRCodeCanvas
-                  value={`bitcoin:${walletAddress}`}
-                  size={60} // Compact size
-                  bgColor={"#ffffff"}
-                  fgColor={"#000000"}
-                  includeMargin={false} // No extra margin for compactness
-                />
-              </div>
-              {/* Bitcoin Address */}
-              <p className="text-white font-mono text-sm px-2 py-1 rounded-md break-words">
-                I collect Bitcoin
-              </p>
-            </div>
           </div>
         </div>
 

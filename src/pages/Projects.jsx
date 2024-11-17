@@ -78,8 +78,8 @@ const Projects = () => {
 
         <div className="container mx-auto px-4 relative z-0">
           <section className="h-screen w-full flex items-center justify-center text-center">
-            <div className="w-full max-w-[90vw] sm:max-w-[60vw] md:max-w-[50vw] flex flex-col">
-              <h1 className="drop-shadow-md text-white font-bold text-xl sm:text-7xl md:text-7xl mb-8 text-center">
+            <div className="w-full max-w-[90vw] sm:max-w-[100vw] items-center mx-auto flex flex-col">
+              <h1 className="drop-shadow-md text-white font-bold text-4xl sm:text-4xl md:text-7xl mb-4 -ml-1 sm:-ml-2 text-center md:text-left lg:text-left">
                 Featured Projects
               </h1>
               <ScrollButton targetId="projects-section">&#8595;</ScrollButton>
@@ -123,7 +123,7 @@ const Projects = () => {
                     rel="noopener noreferrer"
                     className="text-blue-500 text-xl hover:text-blue-700"
                   >
-                    Visit website
+                    {project.link}
                   </a>
                 </div>
               </div>
