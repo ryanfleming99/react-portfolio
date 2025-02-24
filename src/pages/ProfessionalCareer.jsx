@@ -5,40 +5,34 @@ const experiences = [
   {
     role: "Senior Marketing CRO Developer",
     company: "ClassPass",
-    duration: "April 2023 - Present",
+    duration: "April 2023 - March 2025 · 2 yrs",
     description: [
-      "Executed and managed CRO experiments using Optimizely, leveraging JavaScript, HTML, and CSS to optimize web features and improve performance.",
-      "Conducted thorough quality assurance testing across multiple devices and browsers to ensure a consistent and seamless user experience",
-      "Led the complete redevelopment of corporate and partner websites, significantly enhancing functionality and user experience.",
-      "Monitored web analytics using Google Analytics to evaluate the effectiveness of experiments and provide actionable insights.",
-      "Implemented a fully restructured blog using HubSpot's modular system, improving structure, maintainability, and customization.",
-      "Managed multiple marketing campaigns simultaneously, ensuring consistent messaging and alignment with overall business objectives across various channels."
+      "Spearheaded the development and implementation of a modular HubSpot system for corporate and partner websites, achieving a 5% increase in conversions.",
+      "Directed B2B web development projects and trained the marketing team on key marketing KPIs to enhance performance tracking.",
+      "Engineered and integrated a HubSpot blog platform, boosting SEO performance and increasing overall B2B user acquisition.",
+      "Collaborated with engineering and creative teams across EMEA & APAC, utilizing Optimizely, HubSpot, Contentful, GA, Figma, BrowserStack, and GitHub to optimize digital marketing and web development strategies."
     ],
-    logo:
-      "https://res.cloudinary.com/ryry/image/upload/v1724675895/New_Project_7_ymrhtz.webp"
+    logo: "https://res.cloudinary.com/ryry/image/upload/v1724675895/New_Project_7_ymrhtz.webp"
   },
   {
     role: "Front End Developer",
     company: "Marketopia",
-    duration: "Jan 2022 - Present",
+    duration: "Jan 2022 - April 2023 · 1 yr 4 mos",
     description: [
-      "Designed and developed visually engaging websites using Hubspot CMS, WordPress, Webflow, and Wix.",
-      "Enhanced website performance and visibility through SEO optimization, utilizing tools like SEMrush, Google Search Console, and PageSpeed Insights.",
-      "Collaborated with project managers, design teams, and clients to consistently deliver comprehensive websites.",
-      "Conducted daily quality assurance, strategic planning, and project management to ensure optimal outcomes.",
-      "Facilitated monthly training sessions to upskill colleagues in web development, email design, Adobe software, and QA testing."
+      "Managed multiple websites and client expectations by setting clear project goals, reducing customer churn and enhancing overall client satisfaction",
+      "Leveraged advanced SEO strategies with SEMrush and Google Search Console, driving significant improvements in key performance metrics to boost traffic and acquisition",
+      "Developed Figma designs into fully responsive websites using HTML, CSS, JavaScript, and PHP templates, ensuring seamless staging-to-production transitions via WP Engine"
     ],
-    logo:
-      "https://res.cloudinary.com/ryry/image/upload/v1724496110/marketopia-logo_qoo5iu.webp"
+    logo: "https://res.cloudinary.com/ryry/image/upload/v1724496110/marketopia-logo_qoo5iu.webp"
   },
   {
     role: "Front End Developer",
     company: "InvestCloud",
     duration: "Feb 2020 - Jan 2022 · 2 yrs",
     description: [
-      "Developed financial web portals for wealth management clients using proprietary software and Azure DevOps Server.",
-      "Translated InVision designs into functional, responsive HTML and CSS layouts.",
-      "Managed daily bug fixes, functional wiring, and provided consistent feedback on client websites."
+      "Developed financial web portals for wealth management clients using proprietary software and Azure DevOps Server",
+      "Translated InVision designs into functional, responsive HTML and CSS layouts",
+      "Managed daily bug fixes, functional wiring, and provided consistent feedback on client websites"
     ],
     logo:
       "https://res.cloudinary.com/ryry/image/upload/v1724496110/investcloud-logo_ggyamx.webp"
@@ -204,18 +198,18 @@ const WhatIDo = () => {
       <Navbar />
 
       <div
-        className="relative w-full h-screen bg-cover bg-top"
+        className="relative bg-contain bg-no-repeat max-w-sm  md:block md:w-full md:max-w-full md:h-screen md:bg-cover md:bg-top md:py-20 sm:bg-blue-400 "
         style={{
-          backgroundImage: `linear-gradient(to bottom, rgba(255, 255, 255, 0) 90%, rgba(255, 255, 255, 1) 100%),  url('https://res.cloudinary.com/ryry/image/upload/v1731330960/projects-backgrounds_zdqnqi.jpg')`
+          backgroundImage: `linear-gradient(to bottom, rgba(255, 255, 255, 0) 90%, rgba(255, 255, 255, 1) 100%),  url('https://res.cloudinary.com/ryry/image/upload/v1740401570/careerbackground_h3hfcl.webp')`
         }}
       >
         <div className="container px-8 sm:px-24 py-12 relative z-0">
-          <section className="h-screen w-full flex items-start sm:items-center md:items-start  text-left pt-[15vh] sm:pt-[30vh] sm:pt-[25vh]">
+          <section className="md:h-screen h-1/2 w-full flex items-start sm:items-center md:items-start text-left pt-[30vh] sm:pt-[30vh] sm:pt-[25vh] ">
             <div className="w-full max-w-[95vw] sm:max-w-[60vw] md:max-w-[50vw] flex flex-col text-center sm:text-left">
-              <h1 className="drop-shadow-md text-white font-bold text-4xl sm:text-4xl md:text-7xl mb-4 -ml-1 sm:-ml-2 text-center md:text-left lg:text-left">
+              <h1 className="drop-shadow-md md:text-white text-black font-bold text-4xl sm:text-4xl md:text-7xl mb-4 -ml-1 pt-50 sm:-ml-2 text-center md:text-left lg:text-left">
                 Professional Career
               </h1>
-              <p className="text-md text-md sm:text-md p-0 md:max-w-[38vw] sm:text-gray-400 text-gray-400 ">
+              <p className="text-md text-md sm:text-md p-0 md:max-w-[38vw] md:text-white text-black text-lg ">
                 I'm passionate about working with React, Node.js, Contentful,
                 Tailwind, HTML, CSS, and Optimizely. I also enjoy leveraging
                 tools like BrowserStack, Figma, Photoshop, HubSpot, GA4,
@@ -224,7 +218,7 @@ const WhatIDo = () => {
             </div>
           </section>
 
-          <section className="py-12 sm:py-16 flex flex-col">
+          <section className="py-12 sm:py-16 flex flex-col md:w-2/3 flex-grow mx-auto w-full">
             {experiences.map((exp, index) => (
               <div
                 key={index}
@@ -238,13 +232,13 @@ const WhatIDo = () => {
                   />
                 </div>
                 <div className="flex-grow">
-                  <h3 className="text-xl sm:text-2xl font-semibold text-gray-400 mb-2">
+                  <h3 className="text-xl sm:text-2xl font-semibold md:text-gray-900 mb-2 text-black">
                     {exp.role}
                   </h3>
-                  <p className="text-sm sm:text-base text-gray-400 mb-4">
+                  <p className="text-sm sm:text-base md:text-gray-900 mb-4 text-black">
                     {exp.duration}
                   </p>
-                  <ul className="list-disc list-inside text-gray-400 space-y-2 pl-4">
+                  <ul className="list-disc list-inside md:text-gray-900 space-y-2 pl-4 text-black">
                     {exp.description.map((item, i) => (
                       <li key={i}>{item}</li>
                     ))}

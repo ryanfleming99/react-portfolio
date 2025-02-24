@@ -8,7 +8,7 @@ const Navbar = () => {
   const walletAddress = "yourwallet.crypto"; // Replace with your wallet address
 
   const textColor =
-    location.pathname === "/" ? "text-white" : "text-semiTransparentGray";
+    location.pathname === "/" || "/professional-career" ? "text-white" : "text-black";
 
   return (
     <nav className="absolute top-0 left-0 w-full bg-transparent p-6 sm:p-8 md:p-12 z-10">
@@ -32,7 +32,7 @@ const Navbar = () => {
           {/* Bitcoin Address */}
           <Link
             to="/"
-            className={`block ${textColor} hover:text-gray-400 drop-shadow-md text-gray-400`}
+            className={`block ${textColor} hover:text-gray-400 drop-shadow-md text-gray-400 text-lg`}
           >
             Send Bitcoin
           </Link>
@@ -66,19 +66,19 @@ const Navbar = () => {
         >
           <Link
             to="/professional-career"
-            className={`block ${textColor} hover:text-gray-400 drop-shadow-md text-gray-400`}
+            className={`block ${textColor} hover:text-gray-400 drop-shadow-md  text-lg`}
           >
             Career
           </Link>
           <Link
             to="/projects"
-            className={`block ${textColor} hover:text-gray-400 drop-shadow-md text-gray-400`}
+            className={`block ${textColor} hover:text-gray-400 drop-shadow-md  text-lg`}
           >
             Projects
           </Link>
           <Link
             to="/contact"
-            className={`block ${textColor} hover:text-gray-400 drop-shadow-md text-gray-400`}
+            className={`block ${textColor} hover:text-gray-400 drop-shadow-md  text-lg`}
           >
             Contact
           </Link>
